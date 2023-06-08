@@ -2,6 +2,8 @@ module github.com/nats-io/nats-server/v2
 
 go 1.19
 
+replace go.uber.org/automaxprocs v1.5.1 => github.com/Infowatch/automaxprocs v1.5.2
+
 require (
 	github.com/klauspost/compress v1.16.5
 	github.com/minio/highwayhash v1.0.2
